@@ -41,6 +41,19 @@ class NewsItem extends StatelessWidget {
         style:typography.bodyLarge?.apply(fontSizeFactor: 0.8),
         maxLines: 3,
         overflow: TextOverflow.ellipsis,)), 
+        ),
+        Padding(padding: const EdgeInsets.only(top:8, right: 8,left: 8 ),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text('Beebom - 2 Hours ago',
+                style: typography.caption?.apply(fontSizeFactor: 1),maxLines: 1, overflow: TextOverflow.ellipsis,
+                ),
+                ),
+                DropDownButton(items: [
+                  
+                ])
+        ],),
         )
       ],
     ));
