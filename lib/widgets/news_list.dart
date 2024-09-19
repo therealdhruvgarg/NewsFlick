@@ -20,7 +20,7 @@ class _NewsListPageState extends State<NewsListPage> {
       itemBuilder:(ctx,index){
         return Container(
           child: Text('Item $index'),
-          color: Colors.blue,
+          color: Colors.red,
         );
       } )
     );
