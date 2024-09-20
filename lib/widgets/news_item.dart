@@ -34,7 +34,7 @@ class NewsItem extends StatelessWidget {
                       topRight: Radius.circular(6)),
                   child: Container(
                       width: double.infinity,
-                      height: 180,
+                      height: 170,
                       color: material.Color.fromARGB(255, 61, 61, 61),
                       child: FadeInImage.memoryNetwork(
                         placeholder: kTransparentImage,
